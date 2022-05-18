@@ -1,0 +1,42 @@
+.tudo {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 1fr 1fr 1fr 1fr);
+  grid-column-gap: 0.1rem;
+}
+
+.h1 {
+  text-size-adjust: 10px;
+  padding-bottom: 1rem;
+  color: var(--branco);
+}
+.Container {
+  min-width: 250px;
+  max-height: 340px;
+  height: 270px;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  margin: 5px;
+  cursor: pointer;
+  display: table;
+  text-align: center;
+}
+.h2 {
+  padding-top: 1%;
+  font-size: 20px;
+  color: var(--branco);
+  text-align: center;
+}
+
+@media (max-width: 1350px) {
+  .tudo {
+    width: 100%;
+    margin-top: 2%;
+    padding: 1% 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr);
+    grid-column-gap: 0.1rem;
+  }
+}
